@@ -7,7 +7,7 @@ def imprimir_Resultado(operacao:str, conjunto_1:str, conjunto_2:str, resultado:s
     linhas = [operacao, ": conjunto 1 {",  conjunto_1, "}, conjunto 2 {", conjunto_2, "}. Resultado: {", resultado, "}"]
     arquivo_Novo = open("Resultado.txt", "a")
     if ersten_Mal:#Primeira vez
-        arquivo_Novo.write("Nome do arquivo selecionado:" + arquivo_Nome + "\n")
+        arquivo_Novo.write("Nome do arquivo selecionado: " + arquivo_Nome + "\n")
         ersten_Mal = False
     operacao = operacao.replace('\n', ' ')
     conjunto_1 = conjunto_1.replace('\n', ' ')
