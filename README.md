@@ -33,6 +33,8 @@ C
 
 A primeira linha representa o números de operações a ser feita, se não estiver batendo com a quantidade de operações presentes, o arquivo com o resultado será deletado.
 
-A segunda linha é a operação que deseja realizar. As opções são: União(U), Intersecção(I), Diferença(D) e Produto Cartesiano(C, com a relação A x B= {(x, y)| x ∈  A e y ∈  B}). obs: As operações tem que estar sozinhas e em letra maiúsculas.
+A segunda linha é a operação que deseja realizar. As opções são: União(U), Intersecção(I), Diferença(D) e Produto Cartesiano(C, com a relação A x B= {(x, y)| x ∈  A e y ∈  B}). Obs: As operações tem que estar sozinhas e em letra maiúsculas.
 
 A terceira e quarta linha são os conjuntos para as operações.
+
+Obs: não deixe linhas vazias entre as operações, conjuntos e números de operações a ser feita.
